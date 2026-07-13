@@ -1,0 +1,516 @@
+client_id,nom,email,ville,region,segment,date_inscription,ca_historique,actif
+CLI0001,Client_1,client1@email.fr,Toulouse,Auvergne-RA,Startup,2021-02-01,129.67,True
+CLI0002,Client_2,client2@email.fr,Lyon,Nouvelle-Aquitaine,Particulier,2022-08-11,42431.54,False
+CLI0003,Client_3,client3@email.fr,Nantes,Occitanie,PME,2023-11-17,6895.77,True
+CLI0004,Client_4,client4@email.fr,Nantes,PACA,Particulier,2023-10-20,11034.84,True
+CLI0005,Client_5,client5@email.fr,Paris,Île-de-France,Particulier,2022-12-29,2331.35,False
+CLI0006,Client_6,client6@email.fr,Nice,Auvergne-RA,PME,2023-02-23,48589.71,True
+CLI0007,Client_7,client7@email.fr,Lyon,Nouvelle-Aquitaine,Particulier,2021-04-20,7874.12,True
+CLI0008,Client_8,client8@email.fr,Lille,Nouvelle-Aquitaine,PME,2022-04-03,6661.1,True
+CLI0009,Client_9,client9@email.fr,Nantes,Auvergne-RA,Grand Compte,2021-11-02,173.27,False
+CLI0010,Client_10,client10@email.fr,Toulouse,Nouvelle-Aquitaine,Particulier,2023-11-26,7322.01,True
+CLI0011,Client_11,client11@email.fr,Paris,Occitanie,Particulier,2023-07-06,2524.0,False
+CLI0012,Client_12,client12@email.fr,Nice,Nouvelle-Aquitaine,Particulier,2021-11-28,12893.31,False
+CLI0013,Client_13,client13@email.fr,Toulouse,Île-de-France,PME,2021-05-16,39799.97,False
+CLI0014,Client_14,client14@email.fr,Marseille,Occitanie,Startup,2022-06-01,317.7,False
+CLI0015,Client_15,client15@email.fr,Lille,Auvergne-RA,Grand Compte,2022-03-08,2669.33,True
+CLI0016,Client_16,client16@email.fr,Paris,PACA,Particulier,2020-03-03,1952.11,True
+CLI0017,Client_17,client17@email.fr,Paris,Occitanie,Grand Compte,2020-04-14,272.7,False
+CLI0018,Client_18,client18@email.fr,Paris,Occitanie,Startup,2022-02-09,1213.1,True
+CLI0019,Client_19,client19@email.fr,Toulouse,Occitanie,Particulier,2020-03-23,1863.97,True
+CLI0020,Client_20,client20@email.fr,Bordeaux,Île-de-France,Particulier,2020-02-03,270.78,False
+CLI0021,Client_21,client21@email.fr,Strasbourg,Auvergne-RA,Particulier,2021-03-13,3541.45,False
+CLI0022,Client_22,client22@email.fr,Toulouse,PACA,Particulier,2021-09-15,30543.11,True
+CLI0023,Client_23,,Toulouse,Occitanie,Particulier,2020-03-15,1555.46,False
+CLI0024,Client_24,client24@email.fr,Lyon,Auvergne-RA,Particulier,2023-09-20,1783.86,True
+CLI0025,Client_25,client25@email.fr,Lyon,Nouvelle-Aquitaine,Particulier,2022-09-10,2008.49,True
+CLI0026,Client_26,client26@email.fr,Toulouse,Occitanie,PME,2020-07-02,6648.95,True
+CLI0027,Client_27,client27@email.fr,Bordeaux,Occitanie,Startup,2020-02-22,532.68,True
+CLI0028,Client_28,client28@email.fr,Marseille,Île-de-France,Particulier,2022-04-27,1207.87,True
+CLI0029,Client_29,client29@email.fr,Montpellier,Nouvelle-Aquitaine,PME,2020-10-07,2713.46,True
+CLI0030,Client_30,client30@email.fr,Nice,PACA,Grand Compte,2022-10-25,12490.37,True
+CLI0031,Client_31,client31@email.fr,Nantes,Occitanie,Particulier,2021-10-06,346.84,True
+CLI0032,Client_32,client32@email.fr,Nice,Occitanie,PME,2022-03-04,2236.57,True
+CLI0033,Client_33,client33@email.fr,Nantes,PACA,Startup,2020-12-02,10689.65,True
+CLI0034,Client_34,client34@email.fr,Bordeaux,Auvergne-RA,Particulier,2020-03-18,1175.51,False
+CLI0035,Client_35,client35@email.fr,Nice,PACA,PME,2022-10-27,10941.01,True
+CLI0036,Client_36,client36@email.fr,Lyon,Auvergne-RA,PME,2022-11-04,6042.39,False
+CLI0037,Client_37,client37@email.fr,Toulouse,Nouvelle-Aquitaine,Grand Compte,2023-07-20,1130.19,False
+CLI0038,Client_38,client38@email.fr,Bordeaux,Île-de-France,Particulier,2020-03-07,588.56,True
+CLI0039,Client_39,client39@email.fr,Bordeaux,Auvergne-RA,Particulier,2023-10-24,146.74,True
+CLI0040,Client_40,client40@email.fr,Nice,Auvergne-RA,PME,2020-11-10,14782.28,True
+CLI0041,Client_41,client41@email.fr,Lille,Île-de-France,Grand Compte,2020-10-03,1499.42,False
+CLI0042,Client_42,client42@email.fr,Montpellier,Île-de-France,Grand Compte,2020-08-30,1165.62,True
+CLI0043,Client_43,client43@email.fr,Bordeaux,Auvergne-RA,Particulier,2020-03-15,4255.58,True
+CLI0044,Client_44,client44@email.fr,Nantes,PACA,Particulier,2020-07-12,4493.41,True
+CLI0045,Client_45,client45@email.fr,Nice,PACA,Particulier,2020-11-21,7792.16,False
+CLI0046,Client_46,client46@email.fr,Nice,Occitanie,Particulier,2022-04-24,878.16,True
+CLI0047,Client_47,client47@email.fr,Nantes,Auvergne-RA,Particulier,2020-09-17,13486.43,True
+CLI0048,Client_48,client48@email.fr,Lille,Île-de-France,PME,2022-06-29,1254.71,False
+CLI0049,Client_49,client49@email.fr,Marseille,Île-de-France,Particulier,2020-08-23,8316.05,True
+CLI0050,Client_50,client50@email.fr,Marseille,PACA,Startup,2023-09-05,2399.98,True
+CLI0051,Client_51,client51@email.fr,Montpellier,PACA,Particulier,2020-09-26,6465.19,True
+CLI0052,Client_52,client52@email.fr,Nice,Nouvelle-Aquitaine,PME,2022-12-01,6082.92,True
+CLI0053,Client_53,client53@email.fr,Montpellier,PACA,Particulier,2022-11-12,59699.22,True
+CLI0054,Client_54,client54@email.fr,Strasbourg,Auvergne-RA,Particulier,2020-04-13,278.86,True
+CLI0055,Client_55,client55@email.fr,Nantes,PACA,Particulier,2021-07-07,4952.98,True
+CLI0056,Client_56,client56@email.fr,Strasbourg,PACA,Particulier,2021-07-03,1598.9,True
+CLI0057,Client_57,client57@email.fr,Toulouse,PACA,Particulier,2023-07-01,8006.89,True
+CLI0058,Client_58,client58@email.fr,Paris,Occitanie,PME,2020-08-15,762.24,True
+CLI0059,Client_59,client59@email.fr,Montpellier,Occitanie,Particulier,2023-03-26,9278.76,True
+CLI0060,Client_60,,Marseille,PACA,Particulier,2022-03-04,747.51,True
+CLI0061,Client_61,client61@email.fr,Bordeaux,PACA,Startup,2022-05-21,206.83,True
+CLI0062,Client_62,client62@email.fr,Nice,Occitanie,PME,2023-05-18,28115.22,True
+CLI0063,Client_63,client63@email.fr,Montpellier,Nouvelle-Aquitaine,Particulier,2022-09-30,43184.87,False
+CLI0064,Client_64,,Nice,Île-de-France,Particulier,2023-11-02,7225.79,True
+CLI0065,Client_65,client65@email.fr,Montpellier,Île-de-France,Startup,2023-12-01,1819.09,True
+CLI0066,Client_66,client66@email.fr,Nantes,Île-de-France,PME,2021-07-20,1472.3,True
+CLI0067,Client_67,client67@email.fr,Toulouse,Île-de-France,Particulier,2020-07-20,653.17,True
+CLI0068,Client_68,client68@email.fr,Nantes,Auvergne-RA,Particulier,2021-04-19,249.07,True
+CLI0069,Client_69,client69@email.fr,Marseille,Île-de-France,Particulier,2021-12-10,1014.9,True
+CLI0070,Client_70,,Toulouse,Île-de-France,PME,2023-01-12,11600.82,True
+CLI0071,Client_71,client71@email.fr,Nantes,Nouvelle-Aquitaine,Particulier,2023-10-15,141497.84,True
+CLI0072,Client_72,client72@email.fr,Marseille,PACA,Particulier,2023-09-03,3257.87,False
+CLI0073,Client_73,client73@email.fr,Paris,Occitanie,PME,2023-03-13,1023.24,True
+CLI0074,Client_74,client74@email.fr,Lyon,Auvergne-RA,Particulier,2023-02-10,3496.95,True
+CLI0075,Client_75,client75@email.fr,Marseille,Nouvelle-Aquitaine,PME,2022-07-13,3514.31,True
+CLI0076,Client_76,client76@email.fr,Lyon,Nouvelle-Aquitaine,Particulier,2020-02-24,2262.21,False
+CLI0077,Client_77,client77@email.fr,Strasbourg,Occitanie,Particulier,2020-11-08,1036.18,True
+CLI0078,Client_78,client78@email.fr,Montpellier,Île-de-France,Particulier,2021-08-01,999.77,True
+CLI0079,Client_79,client79@email.fr,Montpellier,Auvergne-RA,Particulier,2023-01-16,8659.74,True
+CLI0080,Client_80,client80@email.fr,Bordeaux,Occitanie,PME,2022-06-28,5804.54,True
+CLI0081,Client_81,client81@email.fr,Lyon,Auvergne-RA,Grand Compte,2020-05-30,4892.6,True
+CLI0082,Client_82,client82@email.fr,Toulouse,Nouvelle-Aquitaine,PME,2022-10-19,10993.01,True
+CLI0083,Client_83,client83@email.fr,Strasbourg,Nouvelle-Aquitaine,Particulier,2022-03-15,19342.15,True
+CLI0084,Client_84,client84@email.fr,Marseille,Nouvelle-Aquitaine,Startup,2023-10-19,115.03,False
+CLI0085,Client_85,client85@email.fr,Montpellier,PACA,Particulier,2020-05-07,2706.9,True
+CLI0086,Client_86,client86@email.fr,Montpellier,Auvergne-RA,Particulier,2023-10-14,397.8,True
+CLI0087,Client_87,client87@email.fr,Bordeaux,Auvergne-RA,Particulier,2023-02-06,15592.38,True
+CLI0088,Client_88,client88@email.fr,Toulouse,Auvergne-RA,Particulier,2022-07-22,16766.5,True
+CLI0089,Client_89,client89@email.fr,Lille,Auvergne-RA,Particulier,2020-12-07,4376.68,False
+CLI0090,Client_90,client90@email.fr,Toulouse,Auvergne-RA,Startup,2022-07-10,13017.33,True
+CLI0091,Client_91,client91@email.fr,Nice,Auvergne-RA,PME,2023-10-18,2127.05,False
+CLI0092,Client_92,client92@email.fr,Strasbourg,PACA,Startup,2020-02-24,18240.29,True
+CLI0093,Client_93,client93@email.fr,Nantes,Occitanie,Particulier,2022-01-20,7415.67,True
+CLI0094,Client_94,client94@email.fr,Lyon,Île-de-France,Particulier,2020-03-13,305.28,True
+CLI0095,Client_95,client95@email.fr,Paris,Île-de-France,Particulier,2020-02-11,901.96,True
+CLI0096,Client_96,client96@email.fr,Marseille,Auvergne-RA,PME,2022-12-03,2660.7,True
+CLI0097,Client_97,client97@email.fr,Paris,Auvergne-RA,Particulier,2020-01-12,14718.39,False
+CLI0098,Client_98,client98@email.fr,Paris,Occitanie,Particulier,2021-12-10,3566.74,False
+CLI0099,Client_99,client99@email.fr,Lille,Nouvelle-Aquitaine,PME,2021-05-03,5678.41,True
+CLI0100,Client_100,client100@email.fr,Nantes,Auvergne-RA,PME,2020-11-30,4070.54,True
+CLI0101,Client_101,client101@email.fr,Marseille,Auvergne-RA,Particulier,2021-08-16,22809.9,True
+CLI0102,Client_102,client102@email.fr,Montpellier,PACA,Particulier,2023-01-26,50.97,True
+CLI0103,Client_103,client103@email.fr,Montpellier,Auvergne-RA,Particulier,2020-12-29,22043.86,False
+CLI0104,Client_104,client104@email.fr,Lille,Occitanie,Particulier,2020-01-16,4801.69,True
+CLI0105,Client_105,client105@email.fr,Lyon,PACA,Particulier,2021-02-17,7795.92,True
+CLI0106,Client_106,client106@email.fr,Bordeaux,Occitanie,Particulier,2021-04-21,2303.37,True
+CLI0107,Client_107,client107@email.fr,Lille,Nouvelle-Aquitaine,Startup,2020-09-22,1999.24,False
+CLI0108,Client_108,client108@email.fr,Paris,PACA,Particulier,2021-01-10,1100.15,True
+CLI0109,Client_109,client109@email.fr,Lyon,Occitanie,Grand Compte,2021-12-05,2063.99,False
+CLI0110,Client_110,client110@email.fr,Nice,Occitanie,Particulier,2022-07-27,792.56,False
+CLI0111,Client_111,client111@email.fr,Montpellier,PACA,Startup,2020-08-13,17165.46,True
+CLI0112,Client_112,client112@email.fr,Lyon,Île-de-France,PME,2022-01-22,33916.7,True
+CLI0113,Client_113,client113@email.fr,Nantes,Occitanie,Grand Compte,2022-12-06,3445.48,False
+CLI0114,Client_114,client114@email.fr,Nice,PACA,Particulier,2020-03-02,314.27,True
+CLI0115,Client_115,client115@email.fr,Marseille,Occitanie,PME,2023-01-17,30371.43,True
+CLI0116,Client_116,client116@email.fr,Montpellier,PACA,PME,2023-05-03,44082.43,True
+CLI0117,Client_117,client117@email.fr,Nice,Île-de-France,PME,2023-07-08,765.82,False
+CLI0118,Client_118,client118@email.fr,Montpellier,PACA,Particulier,2022-07-02,12865.12,True
+CLI0119,Client_119,client119@email.fr,Toulouse,Occitanie,Particulier,2022-11-29,3180.86,True
+CLI0120,Client_120,client120@email.fr,Montpellier,Auvergne-RA,Particulier,2023-08-05,13984.57,True
+CLI0121,Client_121,client121@email.fr,Montpellier,Nouvelle-Aquitaine,Particulier,2022-03-26,10205.92,True
+CLI0122,Client_122,client122@email.fr,Bordeaux,PACA,Particulier,2020-01-07,6379.92,True
+CLI0123,Client_123,client123@email.fr,Nice,Île-de-France,Grand Compte,2021-06-18,4206.73,True
+CLI0124,Client_124,client124@email.fr,Strasbourg,Auvergne-RA,PME,2022-12-05,2371.54,True
+CLI0125,Client_125,client125@email.fr,Paris,Auvergne-RA,Particulier,2022-05-05,2139.24,True
+CLI0126,Client_126,client126@email.fr,Nice,Île-de-France,Startup,2023-12-06,3962.31,False
+CLI0127,Client_127,client127@email.fr,Toulouse,Occitanie,Particulier,2022-07-04,1525.92,True
+CLI0128,Client_128,client128@email.fr,Nantes,Île-de-France,Particulier,2021-12-05,3988.36,True
+CLI0129,Client_129,client129@email.fr,Lyon,Auvergne-RA,Startup,2021-11-17,5170.13,True
+CLI0130,Client_130,client130@email.fr,Paris,PACA,PME,2023-12-24,1354.64,True
+CLI0131,Client_131,client131@email.fr,Paris,PACA,Particulier,2020-02-08,20910.14,True
+CLI0132,Client_132,client132@email.fr,Lyon,Nouvelle-Aquitaine,Particulier,2022-04-28,3503.51,True
+CLI0133,Client_133,client133@email.fr,Toulouse,Occitanie,Particulier,2023-11-11,558.43,True
+CLI0134,Client_134,client134@email.fr,Marseille,Île-de-France,Particulier,2023-07-18,514.39,False
+CLI0135,Client_135,client135@email.fr,Montpellier,Nouvelle-Aquitaine,PME,2023-08-25,2349.64,True
+CLI0136,Client_136,client136@email.fr,Marseille,Occitanie,PME,2021-11-23,502.72,False
+CLI0137,Client_137,client137@email.fr,Marseille,Nouvelle-Aquitaine,Particulier,2023-03-22,351.01,True
+CLI0138,Client_138,client138@email.fr,Lille,Nouvelle-Aquitaine,Grand Compte,2022-10-10,7400.09,True
+CLI0139,Client_139,client139@email.fr,Montpellier,PACA,Startup,2021-12-21,1512.53,True
+CLI0140,Client_140,client140@email.fr,Lille,Île-de-France,Startup,2023-12-19,78.59,False
+CLI0141,Client_141,client141@email.fr,Marseille,Île-de-France,PME,2022-06-07,1835.3,True
+CLI0142,Client_142,client142@email.fr,Bordeaux,Île-de-France,Particulier,2020-08-29,3201.6,False
+CLI0143,Client_143,client143@email.fr,Paris,Île-de-France,Particulier,2021-08-11,2278.98,True
+CLI0144,Client_144,client144@email.fr,Nice,Auvergne-RA,Particulier,2022-09-20,994.44,True
+CLI0145,Client_145,client145@email.fr,Paris,PACA,PME,2021-09-26,3259.88,True
+CLI0146,Client_146,client146@email.fr,Montpellier,Auvergne-RA,Particulier,2023-01-12,1129.57,True
+CLI0147,Client_147,client147@email.fr,Strasbourg,PACA,Particulier,2022-06-18,22634.21,True
+CLI0148,Client_148,client148@email.fr,Lille,Nouvelle-Aquitaine,Particulier,2022-08-28,5980.16,True
+CLI0149,Client_149,client149@email.fr,Strasbourg,Nouvelle-Aquitaine,PME,2023-08-17,288.19,True
+CLI0150,Client_150,client150@email.fr,Montpellier,Occitanie,Particulier,2021-11-25,14494.8,False
+CLI0151,Client_151,client151@email.fr,Lyon,Auvergne-RA,Particulier,2021-07-02,549.09,True
+CLI0152,Client_152,client152@email.fr,Nantes,Île-de-France,Particulier,2022-05-11,6949.44,True
+CLI0153,Client_153,client153@email.fr,Montpellier,Nouvelle-Aquitaine,Particulier,2022-01-01,286.37,True
+CLI0154,Client_154,client154@email.fr,Bordeaux,Auvergne-RA,Particulier,2022-07-20,60030.36,True
+CLI0155,Client_155,client155@email.fr,Marseille,PACA,PME,2021-09-28,6629.53,False
+CLI0156,Client_156,client156@email.fr,Paris,PACA,Particulier,2020-04-09,454.54,False
+CLI0157,Client_157,client157@email.fr,Nice,Nouvelle-Aquitaine,PME,2020-01-02,4844.99,True
+CLI0158,Client_158,client158@email.fr,Nantes,Nouvelle-Aquitaine,Particulier,2020-01-14,1925.16,False
+CLI0159,Client_159,client159@email.fr,Bordeaux,Auvergne-RA,Grand Compte,2023-03-14,5226.1,True
+CLI0160,Client_160,client160@email.fr,Toulouse,Île-de-France,Particulier,2020-10-27,2616.87,True
+CLI0161,Client_161,client161@email.fr,Nice,PACA,Particulier,2021-08-14,128.67,True
+CLI0162,Client_162,client162@email.fr,Toulouse,Nouvelle-Aquitaine,Particulier,2022-08-29,4364.51,True
+CLI0163,Client_163,client163@email.fr,Nantes,Nouvelle-Aquitaine,PME,2023-02-04,10621.32,True
+CLI0164,Client_164,client164@email.fr,Montpellier,Nouvelle-Aquitaine,Particulier,2023-10-22,18652.8,True
+CLI0165,Client_165,client165@email.fr,Bordeaux,Auvergne-RA,Startup,2022-08-26,8879.0,True
+CLI0166,Client_166,client166@email.fr,Marseille,Occitanie,Startup,2022-04-16,3222.52,True
+CLI0167,Client_167,client167@email.fr,Nice,Nouvelle-Aquitaine,Startup,2023-05-24,293.92,True
+CLI0168,Client_168,client168@email.fr,Nantes,Nouvelle-Aquitaine,PME,2020-11-03,6343.23,False
+CLI0169,Client_169,client169@email.fr,Strasbourg,Auvergne-RA,PME,2022-10-11,1169.52,True
+CLI0170,Client_170,client170@email.fr,Lyon,Île-de-France,Particulier,2023-05-26,52630.29,True
+CLI0171,Client_171,client171@email.fr,Lyon,Auvergne-RA,Particulier,2020-10-29,1520.23,False
+CLI0172,Client_172,client172@email.fr,Bordeaux,Île-de-France,Particulier,2023-08-03,3298.58,False
+CLI0173,Client_173,client173@email.fr,Toulouse,Île-de-France,PME,2023-05-28,4982.27,True
+CLI0174,Client_174,client174@email.fr,Lille,Île-de-France,Particulier,2021-08-07,562.6,True
+CLI0175,Client_175,client175@email.fr,Lille,PACA,Particulier,2023-11-05,11524.29,True
+CLI0176,Client_176,client176@email.fr,Marseille,Occitanie,Particulier,2023-09-29,2420.44,True
+CLI0177,Client_177,client177@email.fr,Lille,Occitanie,PME,2023-01-04,17281.14,True
+CLI0178,Client_178,client178@email.fr,Lille,Île-de-France,PME,2020-10-17,62475.88,False
+CLI0179,Client_179,,Marseille,Auvergne-RA,Particulier,2022-10-23,7582.48,True
+CLI0180,Client_180,client180@email.fr,Toulouse,Occitanie,PME,2020-01-12,3253.88,True
+CLI0181,Client_181,client181@email.fr,Toulouse,Nouvelle-Aquitaine,Particulier,2020-02-12,8266.44,True
+CLI0182,Client_182,client182@email.fr,Toulouse,PACA,Grand Compte,2023-02-14,7067.08,False
+CLI0183,Client_183,client183@email.fr,Bordeaux,PACA,PME,2020-11-19,2245.44,True
+CLI0184,Client_184,client184@email.fr,Bordeaux,Occitanie,PME,2022-01-20,6833.62,False
+CLI0185,Client_185,client185@email.fr,Nice,Nouvelle-Aquitaine,Particulier,2020-01-02,1205.94,True
+CLI0186,Client_186,client186@email.fr,Strasbourg,Nouvelle-Aquitaine,PME,2022-06-27,275.83,True
+CLI0187,Client_187,client187@email.fr,Montpellier,Île-de-France,Particulier,2020-10-24,2402.42,True
+CLI0188,Client_188,client188@email.fr,Paris,Nouvelle-Aquitaine,Grand Compte,2023-10-17,9841.01,True
+CLI0189,Client_189,client189@email.fr,Strasbourg,Occitanie,Particulier,2022-11-15,6307.25,True
+CLI0190,Client_190,client190@email.fr,Nice,Île-de-France,PME,2023-08-09,426.42,False
+CLI0191,Client_191,client191@email.fr,Marseille,Nouvelle-Aquitaine,Particulier,2023-05-10,7186.92,True
+CLI0192,Client_192,client192@email.fr,Lyon,Occitanie,PME,2021-04-27,8279.26,False
+CLI0193,Client_193,client193@email.fr,Strasbourg,Occitanie,Grand Compte,2023-12-26,604.8,True
+CLI0194,Client_194,client194@email.fr,Nice,Île-de-France,PME,2021-05-23,982.33,True
+CLI0195,Client_195,client195@email.fr,Lyon,PACA,Particulier,2023-10-29,38670.01,True
+CLI0196,Client_196,client196@email.fr,Marseille,Nouvelle-Aquitaine,Particulier,2021-07-07,1605.54,False
+CLI0197,Client_197,client197@email.fr,Bordeaux,Occitanie,Particulier,2020-03-13,571.82,True
+CLI0198,Client_198,client198@email.fr,Paris,Nouvelle-Aquitaine,Grand Compte,2021-05-31,1025.62,False
+CLI0199,Client_199,client199@email.fr,Toulouse,Auvergne-RA,Particulier,2021-01-15,389.21,True
+CLI0200,Client_200,client200@email.fr,Lyon,Île-de-France,Startup,2020-04-25,2244.81,False
+CLI0201,Client_201,client201@email.fr,Nice,Nouvelle-Aquitaine,Startup,2020-10-13,1081.41,True
+CLI0202,Client_202,client202@email.fr,Lille,Nouvelle-Aquitaine,PME,2022-09-06,6530.03,True
+CLI0203,Client_203,client203@email.fr,Strasbourg,Nouvelle-Aquitaine,Startup,2021-09-21,18391.55,True
+CLI0204,Client_204,client204@email.fr,Nantes,Auvergne-RA,Particulier,2022-03-10,3687.03,True
+CLI0205,Client_205,client205@email.fr,Nantes,Nouvelle-Aquitaine,Particulier,2021-04-25,1071.64,True
+CLI0206,Client_206,client206@email.fr,Lille,Île-de-France,Particulier,2022-04-14,511.97,False
+CLI0207,Client_207,client207@email.fr,Nice,Nouvelle-Aquitaine,Particulier,2020-09-18,2953.94,True
+CLI0208,Client_208,client208@email.fr,Bordeaux,Auvergne-RA,Particulier,2021-07-14,10485.37,True
+CLI0209,Client_209,client209@email.fr,Marseille,Auvergne-RA,Particulier,2020-05-13,1733.54,True
+CLI0210,Client_210,client210@email.fr,Toulouse,PACA,PME,2020-05-09,1517.54,True
+CLI0211,Client_211,client211@email.fr,Bordeaux,Auvergne-RA,Particulier,2022-03-03,155.44,True
+CLI0212,Client_212,client212@email.fr,Nantes,Occitanie,PME,2021-04-27,2148.71,True
+CLI0213,Client_213,client213@email.fr,Toulouse,Auvergne-RA,Grand Compte,2022-09-20,278.14,True
+CLI0214,Client_214,client214@email.fr,Bordeaux,Auvergne-RA,PME,2021-03-22,3146.88,True
+CLI0215,Client_215,,Lyon,Nouvelle-Aquitaine,PME,2020-10-13,1061.03,True
+CLI0216,Client_216,client216@email.fr,Montpellier,Île-de-France,Particulier,2023-01-27,2713.55,True
+CLI0217,Client_217,client217@email.fr,Marseille,Nouvelle-Aquitaine,Particulier,2022-02-23,993.14,True
+CLI0218,Client_218,client218@email.fr,Nantes,Auvergne-RA,PME,2022-02-06,1040.54,True
+CLI0219,Client_219,client219@email.fr,Nantes,Occitanie,PME,2021-05-24,1273.1,True
+CLI0220,Client_220,,Toulouse,Auvergne-RA,Particulier,2023-12-17,1662.16,True
+CLI0221,Client_221,client221@email.fr,Toulouse,Auvergne-RA,PME,2023-05-21,2481.16,True
+CLI0222,Client_222,client222@email.fr,Toulouse,Nouvelle-Aquitaine,PME,2021-09-20,1551.95,True
+CLI0223,Client_223,client223@email.fr,Lyon,Nouvelle-Aquitaine,PME,2021-08-16,94.25,False
+CLI0224,Client_224,client224@email.fr,Nice,Occitanie,Startup,2021-09-16,1529.32,True
+CLI0225,Client_225,client225@email.fr,Montpellier,Île-de-France,Startup,2023-02-27,270.78,True
+CLI0226,Client_226,client226@email.fr,Montpellier,Occitanie,Particulier,2022-01-28,1619.57,True
+CLI0227,Client_227,client227@email.fr,Nantes,Île-de-France,Particulier,2022-08-13,13579.18,True
+CLI0228,Client_228,client228@email.fr,Paris,Occitanie,Grand Compte,2023-05-08,2450.94,True
+CLI0229,Client_229,client229@email.fr,Paris,Occitanie,Particulier,2021-10-25,3026.12,False
+CLI0230,Client_230,client230@email.fr,Bordeaux,PACA,Startup,2023-05-19,1320.94,True
+CLI0231,Client_231,client231@email.fr,Marseille,PACA,Particulier,2022-02-11,17651.15,False
+CLI0232,Client_232,client232@email.fr,Paris,Île-de-France,Startup,2021-04-07,8764.2,True
+CLI0233,Client_233,,Bordeaux,Nouvelle-Aquitaine,Particulier,2020-06-17,2861.96,True
+CLI0234,Client_234,client234@email.fr,Toulouse,Nouvelle-Aquitaine,PME,2022-02-08,7054.79,True
+CLI0235,Client_235,client235@email.fr,Lyon,PACA,Grand Compte,2020-09-29,621.9,False
+CLI0236,Client_236,client236@email.fr,Lyon,Nouvelle-Aquitaine,PME,2023-04-10,156.1,False
+CLI0237,Client_237,client237@email.fr,Paris,Occitanie,PME,2023-05-30,2319.99,True
+CLI0238,Client_238,client238@email.fr,Montpellier,Nouvelle-Aquitaine,Grand Compte,2020-09-12,4554.49,True
+CLI0239,Client_239,client239@email.fr,Lille,Nouvelle-Aquitaine,Grand Compte,2022-02-08,5429.12,True
+CLI0240,Client_240,client240@email.fr,Marseille,Nouvelle-Aquitaine,Particulier,2021-02-24,1122.11,True
+CLI0241,Client_241,client241@email.fr,Marseille,PACA,PME,2022-11-19,4880.38,False
+CLI0242,Client_242,client242@email.fr,Montpellier,Auvergne-RA,Particulier,2020-05-08,11502.77,False
+CLI0243,Client_243,client243@email.fr,Paris,Nouvelle-Aquitaine,Grand Compte,2023-06-01,4955.72,True
+CLI0244,Client_244,client244@email.fr,Strasbourg,PACA,PME,2022-07-25,10150.8,False
+CLI0245,Client_245,client245@email.fr,Bordeaux,Nouvelle-Aquitaine,Grand Compte,2021-08-24,4763.5,True
+CLI0246,Client_246,client246@email.fr,Lyon,Occitanie,PME,2021-08-09,4812.63,False
+CLI0247,Client_247,client247@email.fr,Strasbourg,PACA,Startup,2020-05-11,31119.92,True
+CLI0248,Client_248,client248@email.fr,Marseille,Auvergne-RA,PME,2022-04-01,456.98,False
+CLI0249,Client_249,client249@email.fr,Nice,Nouvelle-Aquitaine,PME,2022-07-29,3911.49,False
+CLI0250,Client_250,client250@email.fr,Marseille,Occitanie,Particulier,2022-12-14,850.95,False
+CLI0251,Client_251,client251@email.fr,Montpellier,Auvergne-RA,Particulier,2020-06-07,672.83,False
+CLI0252,Client_252,client252@email.fr,Nice,Occitanie,Particulier,2020-01-19,5317.86,False
+CLI0253,Client_253,client253@email.fr,Strasbourg,Île-de-France,Particulier,2023-03-15,1243.95,False
+CLI0254,Client_254,client254@email.fr,Lille,Nouvelle-Aquitaine,PME,2020-06-09,2305.67,True
+CLI0255,Client_255,client255@email.fr,Bordeaux,PACA,Particulier,2020-03-18,10669.46,True
+CLI0256,Client_256,client256@email.fr,Lille,Nouvelle-Aquitaine,PME,2020-02-19,11087.5,True
+CLI0257,Client_257,,Paris,Occitanie,Particulier,2021-07-16,14036.91,True
+CLI0258,Client_258,client258@email.fr,Bordeaux,Île-de-France,Particulier,2021-12-04,2225.16,True
+CLI0259,Client_259,client259@email.fr,Nice,Nouvelle-Aquitaine,Grand Compte,2023-08-11,40.17,True
+CLI0260,Client_260,,Lille,Nouvelle-Aquitaine,PME,2022-09-11,2341.72,False
+CLI0261,Client_261,,Montpellier,Nouvelle-Aquitaine,Grand Compte,2023-09-27,798.73,False
+CLI0262,Client_262,client262@email.fr,Nice,Auvergne-RA,Particulier,2021-08-04,862.37,False
+CLI0263,Client_263,client263@email.fr,Bordeaux,PACA,Grand Compte,2020-09-06,160.48,True
+CLI0264,Client_264,client264@email.fr,Strasbourg,Auvergne-RA,Particulier,2023-05-11,9658.35,False
+CLI0265,Client_265,client265@email.fr,Strasbourg,Occitanie,Grand Compte,2021-05-06,6725.73,True
+CLI0266,Client_266,client266@email.fr,Lyon,Occitanie,Particulier,2022-09-10,19565.74,True
+CLI0267,Client_267,client267@email.fr,Lille,Occitanie,Particulier,2021-03-20,990.4,True
+CLI0268,Client_268,client268@email.fr,Paris,Île-de-France,Startup,2021-07-26,884.15,True
+CLI0269,Client_269,client269@email.fr,Lille,Île-de-France,Particulier,2022-08-23,6815.67,True
+CLI0270,Client_270,client270@email.fr,Lyon,Île-de-France,Particulier,2020-04-07,1551.84,False
+CLI0271,Client_271,client271@email.fr,Strasbourg,Nouvelle-Aquitaine,Grand Compte,2023-08-10,2265.74,False
+CLI0272,Client_272,client272@email.fr,Paris,Occitanie,PME,2021-01-17,23442.7,False
+CLI0273,Client_273,client273@email.fr,Nantes,Occitanie,Particulier,2021-09-19,1735.91,True
+CLI0274,Client_274,client274@email.fr,Nice,Île-de-France,Grand Compte,2023-07-01,6419.68,True
+CLI0275,Client_275,client275@email.fr,Paris,Auvergne-RA,Particulier,2022-02-12,893.33,True
+CLI0276,Client_276,client276@email.fr,Marseille,Occitanie,Startup,2021-05-18,122.12,False
+CLI0277,Client_277,client277@email.fr,Montpellier,Nouvelle-Aquitaine,Particulier,2020-06-12,724.1,True
+CLI0278,Client_278,client278@email.fr,Montpellier,Auvergne-RA,PME,2021-04-12,552.33,True
+CLI0279,Client_279,client279@email.fr,Strasbourg,PACA,PME,2020-10-09,1804.14,False
+CLI0280,Client_280,client280@email.fr,Toulouse,Nouvelle-Aquitaine,Particulier,2020-12-31,1627.06,True
+CLI0281,Client_281,client281@email.fr,Lille,Nouvelle-Aquitaine,Particulier,2022-11-05,2940.6,True
+CLI0282,Client_282,client282@email.fr,Lyon,Nouvelle-Aquitaine,Startup,2020-09-03,4697.02,False
+CLI0283,Client_283,,Lille,PACA,Particulier,2022-07-18,1358.32,True
+CLI0284,Client_284,client284@email.fr,Lille,Nouvelle-Aquitaine,Startup,2021-10-07,452.23,True
+CLI0285,Client_285,client285@email.fr,Lille,PACA,Startup,2023-10-19,123.62,True
+CLI0286,Client_286,client286@email.fr,Nice,Occitanie,PME,2023-05-26,1197.83,True
+CLI0287,Client_287,client287@email.fr,Marseille,Nouvelle-Aquitaine,Startup,2020-11-02,33626.29,True
+CLI0288,Client_288,client288@email.fr,Nantes,Île-de-France,Particulier,2022-05-11,1838.16,True
+CLI0289,Client_289,client289@email.fr,Paris,Nouvelle-Aquitaine,Particulier,2022-12-25,746.43,False
+CLI0290,Client_290,client290@email.fr,Montpellier,PACA,Particulier,2020-05-22,6346.94,True
+CLI0291,Client_291,client291@email.fr,Lille,Occitanie,Particulier,2021-04-04,8309.28,False
+CLI0292,Client_292,client292@email.fr,Lyon,PACA,Startup,2023-06-28,1222.68,True
+CLI0293,Client_293,client293@email.fr,Lyon,Nouvelle-Aquitaine,PME,2021-12-02,4356.42,True
+CLI0294,Client_294,client294@email.fr,Paris,Île-de-France,Particulier,2020-09-26,2710.34,True
+CLI0295,Client_295,client295@email.fr,Nantes,Île-de-France,PME,2022-08-04,6709.66,False
+CLI0296,Client_296,,Strasbourg,Île-de-France,PME,2023-10-30,11238.79,True
+CLI0297,Client_297,client297@email.fr,Bordeaux,Occitanie,Particulier,2022-07-24,232.69,True
+CLI0298,Client_298,client298@email.fr,Marseille,Île-de-France,PME,2020-08-09,6584.37,True
+CLI0299,Client_299,client299@email.fr,Bordeaux,Nouvelle-Aquitaine,Particulier,2023-02-24,6896.29,True
+CLI0300,Client_300,client300@email.fr,Marseille,PACA,Startup,2021-10-22,87494.42,True
+CLI0301,Client_301,client301@email.fr,Toulouse,PACA,Particulier,2022-10-09,12871.83,False
+CLI0302,Client_302,client302@email.fr,Montpellier,Occitanie,Particulier,2023-12-18,6321.05,False
+CLI0303,Client_303,client303@email.fr,Lille,PACA,Particulier,2021-08-27,25546.49,True
+CLI0304,Client_304,client304@email.fr,Strasbourg,Nouvelle-Aquitaine,PME,2023-11-30,1983.69,False
+CLI0305,Client_305,client305@email.fr,Nantes,Nouvelle-Aquitaine,Startup,2023-03-31,5063.49,False
+CLI0306,Client_306,client306@email.fr,Nantes,Île-de-France,Grand Compte,2021-07-26,2893.79,False
+CLI0307,Client_307,client307@email.fr,Montpellier,PACA,PME,2021-03-16,2142.46,False
+CLI0308,Client_308,client308@email.fr,Bordeaux,Île-de-France,Particulier,2022-09-24,134.05,True
+CLI0309,Client_309,,Montpellier,PACA,Particulier,2022-05-14,15164.61,True
+CLI0310,Client_310,client310@email.fr,Nice,PACA,Grand Compte,2020-08-20,1253.51,True
+CLI0311,Client_311,client311@email.fr,Paris,Île-de-France,Particulier,2022-03-29,3996.06,True
+CLI0312,Client_312,client312@email.fr,Marseille,PACA,PME,2020-01-01,13209.5,False
+CLI0313,Client_313,client313@email.fr,Montpellier,Occitanie,Particulier,2023-07-15,494.09,True
+CLI0314,Client_314,client314@email.fr,Nice,Occitanie,Grand Compte,2022-05-08,13958.34,True
+CLI0315,Client_315,client315@email.fr,Strasbourg,Île-de-France,Particulier,2022-04-29,10177.62,True
+CLI0316,Client_316,client316@email.fr,Lyon,Occitanie,PME,2021-02-15,489.06,False
+CLI0317,Client_317,client317@email.fr,Paris,Nouvelle-Aquitaine,Grand Compte,2021-10-16,1353.65,True
+CLI0318,Client_318,client318@email.fr,Lyon,PACA,Particulier,2023-07-13,28530.46,True
+CLI0319,Client_319,client319@email.fr,Nantes,Île-de-France,Particulier,2022-02-09,1189.57,True
+CLI0320,Client_320,client320@email.fr,Marseille,Auvergne-RA,Grand Compte,2020-09-24,5126.89,True
+CLI0321,Client_321,client321@email.fr,Strasbourg,Occitanie,PME,2023-10-12,3788.72,True
+CLI0322,Client_322,client322@email.fr,Montpellier,Île-de-France,Grand Compte,2020-10-03,638.1,True
+CLI0323,Client_323,client323@email.fr,Bordeaux,PACA,Grand Compte,2020-03-13,13371.4,False
+CLI0324,Client_324,client324@email.fr,Marseille,PACA,Particulier,2022-04-26,1090.15,True
+CLI0325,Client_325,client325@email.fr,Montpellier,PACA,Particulier,2023-02-15,14028.12,True
+CLI0326,Client_326,client326@email.fr,Toulouse,Nouvelle-Aquitaine,Grand Compte,2022-04-12,16156.18,True
+CLI0327,Client_327,client327@email.fr,Marseille,Occitanie,Particulier,2022-07-02,358.17,True
+CLI0328,Client_328,client328@email.fr,Paris,Île-de-France,Particulier,2020-11-20,18397.58,False
+CLI0329,Client_329,client329@email.fr,Bordeaux,Nouvelle-Aquitaine,Particulier,2022-11-20,885.01,True
+CLI0330,Client_330,client330@email.fr,Montpellier,PACA,Particulier,2021-07-10,5631.28,False
+CLI0331,Client_331,client331@email.fr,Nantes,PACA,PME,2023-06-11,267.46,True
+CLI0332,Client_332,client332@email.fr,Nice,Occitanie,Particulier,2020-06-18,773.03,False
+CLI0333,Client_333,client333@email.fr,Strasbourg,Nouvelle-Aquitaine,Startup,2020-07-19,2537.78,True
+CLI0334,Client_334,client334@email.fr,Nantes,Nouvelle-Aquitaine,Startup,2020-10-31,5834.68,True
+CLI0335,Client_335,client335@email.fr,Nantes,Occitanie,Particulier,2022-08-04,14666.94,True
+CLI0336,Client_336,client336@email.fr,Paris,Occitanie,PME,2022-09-30,1478.6,True
+CLI0337,Client_337,client337@email.fr,Strasbourg,Nouvelle-Aquitaine,PME,2023-07-27,1362.6,True
+CLI0338,Client_338,client338@email.fr,Lyon,Île-de-France,Particulier,2022-02-25,6955.04,True
+CLI0339,Client_339,client339@email.fr,Montpellier,Nouvelle-Aquitaine,Particulier,2021-09-04,302.84,False
+CLI0340,Client_340,client340@email.fr,Lyon,PACA,PME,2023-03-09,4278.63,True
+CLI0341,Client_341,client341@email.fr,Strasbourg,Nouvelle-Aquitaine,Grand Compte,2023-04-22,7573.1,False
+CLI0342,Client_342,client342@email.fr,Marseille,PACA,Particulier,2021-09-11,1712.29,False
+CLI0343,Client_343,client343@email.fr,Nantes,Auvergne-RA,Particulier,2023-12-11,195.92,True
+CLI0344,Client_344,client344@email.fr,Lille,PACA,Particulier,2022-08-31,54425.28,True
+CLI0345,Client_345,client345@email.fr,Marseille,Nouvelle-Aquitaine,Particulier,2020-06-11,2217.18,False
+CLI0346,Client_346,,Paris,Île-de-France,PME,2022-04-19,2375.8,True
+CLI0347,Client_347,client347@email.fr,Marseille,PACA,Grand Compte,2022-07-31,7973.28,False
+CLI0348,Client_348,client348@email.fr,Nantes,Occitanie,Grand Compte,2022-06-24,3992.23,True
+CLI0349,Client_349,client349@email.fr,Toulouse,Nouvelle-Aquitaine,Particulier,2021-11-26,26118.53,True
+CLI0350,Client_350,client350@email.fr,Montpellier,Auvergne-RA,Particulier,2023-09-12,3682.73,True
+CLI0351,Client_351,,Paris,Nouvelle-Aquitaine,Particulier,2020-01-01,3908.37,True
+CLI0352,Client_352,client352@email.fr,Montpellier,Île-de-France,Particulier,2023-11-08,3706.55,False
+CLI0353,Client_353,client353@email.fr,Nantes,PACA,PME,2022-06-28,174.09,False
+CLI0354,Client_354,client354@email.fr,Lyon,Auvergne-RA,PME,2023-10-13,4104.92,False
+CLI0355,Client_355,client355@email.fr,Nice,Occitanie,Particulier,2021-05-22,1961.25,True
+CLI0356,Client_356,client356@email.fr,Strasbourg,PACA,Grand Compte,2023-06-08,13926.61,True
+CLI0357,Client_357,client357@email.fr,Paris,Île-de-France,PME,2022-02-19,249.79,True
+CLI0358,Client_358,client358@email.fr,Paris,Auvergne-RA,Particulier,2021-10-21,18118.14,False
+CLI0359,Client_359,client359@email.fr,Lyon,Nouvelle-Aquitaine,PME,2020-02-22,4250.84,True
+CLI0360,Client_360,client360@email.fr,Strasbourg,Auvergne-RA,Particulier,2023-08-06,23261.69,True
+CLI0361,Client_361,client361@email.fr,Lille,Nouvelle-Aquitaine,Particulier,2022-09-17,6908.17,True
+CLI0362,Client_362,client362@email.fr,Nantes,Île-de-France,Grand Compte,2022-03-28,1183.89,False
+CLI0363,Client_363,,Toulouse,Nouvelle-Aquitaine,Particulier,2023-03-26,3933.76,True
+CLI0364,Client_364,client364@email.fr,Bordeaux,Auvergne-RA,Particulier,2020-05-20,614.34,True
+CLI0365,Client_365,client365@email.fr,Montpellier,Nouvelle-Aquitaine,Particulier,2021-02-04,2701.81,True
+CLI0366,Client_366,client366@email.fr,Lille,Auvergne-RA,PME,2020-08-22,58252.23,True
+CLI0367,Client_367,client367@email.fr,Montpellier,Nouvelle-Aquitaine,PME,2021-03-06,85965.54,True
+CLI0368,Client_368,client368@email.fr,Toulouse,Nouvelle-Aquitaine,Particulier,2023-10-10,1610.95,True
+CLI0369,Client_369,client369@email.fr,Marseille,Nouvelle-Aquitaine,Grand Compte,2022-11-02,19009.28,True
+CLI0370,Client_370,client370@email.fr,Lille,Île-de-France,Particulier,2022-08-09,1844.31,True
+CLI0371,Client_371,client371@email.fr,Strasbourg,Occitanie,Grand Compte,2022-02-14,20168.71,False
+CLI0372,Client_372,client372@email.fr,Toulouse,Nouvelle-Aquitaine,Particulier,2022-12-24,10047.64,False
+CLI0373,Client_373,client373@email.fr,Marseille,Occitanie,Grand Compte,2020-04-27,4208.28,True
+CLI0374,Client_374,client374@email.fr,Toulouse,Auvergne-RA,Grand Compte,2022-05-17,27441.98,True
+CLI0375,Client_375,client375@email.fr,Lille,PACA,Particulier,2020-01-17,2033.78,True
+CLI0376,Client_376,client376@email.fr,Bordeaux,Auvergne-RA,Particulier,2020-08-17,5798.88,True
+CLI0377,Client_377,client377@email.fr,Paris,Nouvelle-Aquitaine,Startup,2020-06-23,2086.95,True
+CLI0378,Client_378,client378@email.fr,Toulouse,Île-de-France,Particulier,2021-06-02,3977.27,False
+CLI0379,Client_379,client379@email.fr,Toulouse,Nouvelle-Aquitaine,Particulier,2023-06-05,3866.14,True
+CLI0380,Client_380,client380@email.fr,Nantes,PACA,PME,2020-07-13,4298.11,True
+CLI0381,Client_381,client381@email.fr,Lyon,Auvergne-RA,Particulier,2023-01-07,3861.81,False
+CLI0382,Client_382,client382@email.fr,Lille,Occitanie,Particulier,2022-09-06,1534.43,True
+CLI0383,Client_383,client383@email.fr,Nantes,Île-de-France,PME,2023-01-18,1698.0,True
+CLI0384,Client_384,client384@email.fr,Marseille,PACA,Startup,2021-03-31,1850.9,False
+CLI0385,Client_385,client385@email.fr,Paris,Île-de-France,Startup,2023-01-30,2009.28,True
+CLI0386,Client_386,client386@email.fr,Lyon,Auvergne-RA,PME,2020-01-05,189.89,False
+CLI0387,Client_387,client387@email.fr,Montpellier,Île-de-France,Startup,2020-01-15,5904.25,True
+CLI0388,Client_388,client388@email.fr,Nantes,Auvergne-RA,Particulier,2020-10-28,2388.01,True
+CLI0389,Client_389,client389@email.fr,Marseille,Occitanie,Particulier,2021-05-07,1565.77,True
+CLI0390,Client_390,client390@email.fr,Bordeaux,PACA,Particulier,2021-11-26,7207.16,False
+CLI0391,Client_391,client391@email.fr,Lille,Nouvelle-Aquitaine,PME,2020-09-30,1017.44,True
+CLI0392,Client_392,,Nantes,Nouvelle-Aquitaine,Particulier,2022-03-07,3772.83,True
+CLI0393,Client_393,client393@email.fr,Paris,PACA,PME,2022-04-27,2624.55,False
+CLI0394,Client_394,client394@email.fr,Paris,PACA,Particulier,2020-07-05,461.75,False
+CLI0395,Client_395,client395@email.fr,Nantes,Occitanie,Particulier,2020-05-16,5973.96,False
+CLI0396,Client_396,client396@email.fr,Nice,PACA,Grand Compte,2020-06-18,6766.8,False
+CLI0397,Client_397,client397@email.fr,Strasbourg,PACA,PME,2023-03-24,2893.95,True
+CLI0398,Client_398,,Bordeaux,Île-de-France,PME,2023-06-24,1436.74,True
+CLI0399,Client_399,client399@email.fr,Paris,Île-de-France,Particulier,2022-09-06,2625.84,True
+CLI0400,Client_400,client400@email.fr,Lyon,Occitanie,PME,2021-11-23,1087.44,True
+CLI0401,Client_401,client401@email.fr,Paris,Auvergne-RA,Startup,2020-06-02,302.05,True
+CLI0402,Client_402,client402@email.fr,Paris,Île-de-France,PME,2022-10-12,3130.24,True
+CLI0403,Client_403,client403@email.fr,Bordeaux,Occitanie,Particulier,2022-04-03,6794.35,True
+CLI0404,Client_404,client404@email.fr,Strasbourg,Auvergne-RA,Particulier,2021-02-08,155023.67,True
+CLI0405,Client_405,client405@email.fr,Nice,Nouvelle-Aquitaine,Particulier,2021-09-19,1113.8,False
+CLI0406,Client_406,client406@email.fr,Strasbourg,Nouvelle-Aquitaine,Particulier,2021-04-19,907.74,False
+CLI0407,Client_407,client407@email.fr,Marseille,Occitanie,Particulier,2023-10-22,5739.39,True
+CLI0408,Client_408,client408@email.fr,Montpellier,Auvergne-RA,Particulier,2020-10-16,5466.76,True
+CLI0409,Client_409,client409@email.fr,Toulouse,Nouvelle-Aquitaine,Particulier,2021-08-03,12450.75,True
+CLI0410,Client_410,,Lille,Nouvelle-Aquitaine,Particulier,2023-10-12,108.71,True
+CLI0411,Client_411,client411@email.fr,Strasbourg,Occitanie,PME,2021-01-18,18509.89,True
+CLI0412,Client_412,client412@email.fr,Nice,Auvergne-RA,Particulier,2022-05-18,10207.04,True
+CLI0413,Client_413,client413@email.fr,Marseille,Île-de-France,PME,2023-11-03,8587.37,True
+CLI0414,Client_414,client414@email.fr,Paris,PACA,Particulier,2022-07-26,966.14,True
+CLI0415,Client_415,,Lyon,Île-de-France,PME,2020-01-10,103.44,False
+CLI0416,Client_416,client416@email.fr,Lille,PACA,Particulier,2023-01-30,1918.51,True
+CLI0417,Client_417,client417@email.fr,Lille,PACA,PME,2021-05-03,488.51,True
+CLI0418,Client_418,client418@email.fr,Nantes,Île-de-France,PME,2023-11-02,2272.17,True
+CLI0419,Client_419,client419@email.fr,Lille,Île-de-France,Grand Compte,2021-11-11,1290.19,True
+CLI0420,Client_420,client420@email.fr,Toulouse,PACA,PME,2021-07-14,572.36,False
+CLI0421,Client_421,client421@email.fr,Strasbourg,Île-de-France,PME,2023-01-28,8461.71,True
+CLI0422,Client_422,,Bordeaux,PACA,Grand Compte,2022-04-05,10653.6,True
+CLI0423,Client_423,client423@email.fr,Strasbourg,Nouvelle-Aquitaine,Particulier,2022-07-13,3983.08,True
+CLI0424,Client_424,client424@email.fr,Toulouse,Île-de-France,PME,2023-09-21,21578.8,True
+CLI0425,Client_425,client425@email.fr,Marseille,PACA,PME,2022-06-09,3947.14,True
+CLI0426,Client_426,client426@email.fr,Strasbourg,Auvergne-RA,Particulier,2022-06-01,4208.62,True
+CLI0427,Client_427,client427@email.fr,Strasbourg,PACA,Particulier,2022-10-11,1713.14,True
+CLI0428,Client_428,,Toulouse,PACA,PME,2020-05-19,3696.28,True
+CLI0429,Client_429,client429@email.fr,Toulouse,Île-de-France,Particulier,2022-12-28,1334.48,True
+CLI0430,Client_430,client430@email.fr,Lyon,Nouvelle-Aquitaine,Startup,2023-01-12,230.2,True
+CLI0431,Client_431,client431@email.fr,Strasbourg,PACA,Particulier,2022-01-29,2861.4,True
+CLI0432,Client_432,client432@email.fr,Nantes,Auvergne-RA,PME,2023-09-03,1996.43,True
+CLI0433,Client_433,client433@email.fr,Nice,Nouvelle-Aquitaine,Particulier,2023-05-12,3868.09,True
+CLI0434,Client_434,client434@email.fr,Lyon,Nouvelle-Aquitaine,Particulier,2020-06-14,1041.06,True
+CLI0435,Client_435,client435@email.fr,Strasbourg,PACA,Grand Compte,2020-08-17,2502.52,False
+CLI0436,Client_436,client436@email.fr,Bordeaux,PACA,Particulier,2023-12-08,1007.64,True
+CLI0437,Client_437,,Marseille,PACA,Particulier,2021-04-25,10771.68,True
+CLI0438,Client_438,client438@email.fr,Lyon,Occitanie,PME,2021-08-17,41996.27,True
+CLI0439,Client_439,client439@email.fr,Toulouse,PACA,Particulier,2021-07-13,341.46,True
+CLI0440,Client_440,client440@email.fr,Paris,Occitanie,Particulier,2022-03-27,25476.71,True
+CLI0441,Client_441,client441@email.fr,Paris,Auvergne-RA,PME,2023-06-14,25252.82,True
+CLI0442,Client_442,client442@email.fr,Paris,Auvergne-RA,Grand Compte,2020-02-23,8488.22,True
+CLI0443,Client_443,client443@email.fr,Toulouse,Île-de-France,Particulier,2023-07-18,3232.56,True
+CLI0444,Client_444,,Montpellier,Nouvelle-Aquitaine,Particulier,2021-01-11,22471.4,True
+CLI0445,Client_445,client445@email.fr,Bordeaux,Occitanie,Grand Compte,2021-01-03,692.51,True
+CLI0446,Client_446,client446@email.fr,Lyon,Auvergne-RA,Particulier,2021-09-30,178.37,True
+CLI0447,Client_447,client447@email.fr,Montpellier,PACA,Particulier,2022-04-12,12917.68,True
+CLI0448,Client_448,client448@email.fr,Nantes,PACA,Particulier,2023-10-24,963.65,False
+CLI0449,Client_449,client449@email.fr,Nantes,Occitanie,Particulier,2021-07-21,1586.69,True
+CLI0450,Client_450,client450@email.fr,Nantes,Auvergne-RA,Particulier,2023-06-29,23015.55,True
+CLI0451,Client_451,client451@email.fr,Lyon,Auvergne-RA,Particulier,2021-05-26,1667.87,False
+CLI0452,Client_452,client452@email.fr,Strasbourg,Occitanie,Particulier,2020-03-28,2784.67,False
+CLI0453,Client_453,client453@email.fr,Paris,PACA,Particulier,2020-04-30,1044.34,False
+CLI0454,Client_454,client454@email.fr,Paris,Auvergne-RA,Startup,2020-08-29,1424.34,True
+CLI0455,Client_455,client455@email.fr,Bordeaux,PACA,PME,2020-03-09,49238.1,True
+CLI0456,Client_456,client456@email.fr,Nice,Nouvelle-Aquitaine,Particulier,2023-08-27,151.64,True
+CLI0457,Client_457,client457@email.fr,Toulouse,Nouvelle-Aquitaine,Particulier,2023-04-15,8616.68,True
+CLI0458,Client_458,client458@email.fr,Lille,PACA,Particulier,2022-11-28,3021.65,True
+CLI0459,Client_459,client459@email.fr,Toulouse,Auvergne-RA,Particulier,2020-03-16,5597.87,True
+CLI0460,Client_460,,Lille,Occitanie,Particulier,2021-10-14,7407.7,False
+CLI0461,Client_461,client461@email.fr,Strasbourg,Occitanie,PME,2021-08-19,12883.79,True
+CLI0462,Client_462,client462@email.fr,Nantes,Île-de-France,PME,2021-09-29,11821.58,True
+CLI0463,Client_463,client463@email.fr,Marseille,Auvergne-RA,PME,2022-10-16,692.68,True
+CLI0464,Client_464,client464@email.fr,Strasbourg,PACA,PME,2023-11-06,4081.3,False
+CLI0465,Client_465,client465@email.fr,Lille,Île-de-France,Particulier,2020-01-19,836.84,True
+CLI0466,Client_466,client466@email.fr,Lyon,Auvergne-RA,Particulier,2022-01-27,39331.04,True
+CLI0467,Client_467,client467@email.fr,Paris,Occitanie,PME,2022-07-13,5074.21,True
+CLI0468,Client_468,client468@email.fr,Toulouse,Auvergne-RA,Particulier,2022-10-27,2786.57,True
+CLI0469,Client_469,client469@email.fr,Toulouse,Île-de-France,Grand Compte,2021-06-12,5587.56,True
+CLI0470,Client_470,client470@email.fr,Toulouse,PACA,Particulier,2023-11-04,10892.39,False
+CLI0471,Client_471,,Lille,Île-de-France,Particulier,2020-12-01,1775.63,True
+CLI0472,Client_472,client472@email.fr,Marseille,PACA,Particulier,2021-03-04,1973.67,True
+CLI0473,Client_473,client473@email.fr,Toulouse,Île-de-France,Particulier,2021-03-10,776.22,False
+CLI0474,Client_474,client474@email.fr,Lille,Nouvelle-Aquitaine,Particulier,2020-04-25,1086.19,True
+CLI0475,Client_475,client475@email.fr,Lyon,Auvergne-RA,Particulier,2020-11-30,2695.91,True
+CLI0476,Client_476,client476@email.fr,Montpellier,PACA,Particulier,2021-10-05,1265.14,True
+CLI0477,Client_477,client477@email.fr,Nice,PACA,Startup,2023-12-08,7921.08,True
+CLI0478,Client_478,client478@email.fr,Lyon,Occitanie,PME,2022-12-07,541.03,True
+CLI0479,Client_479,client479@email.fr,Lille,Auvergne-RA,Particulier,2023-10-23,9197.59,True
+CLI0480,Client_480,client480@email.fr,Marseille,Occitanie,PME,2020-02-13,7601.55,True
+CLI0481,Client_481,client481@email.fr,Lille,Nouvelle-Aquitaine,PME,2021-02-04,7776.83,True
+CLI0482,Client_482,client482@email.fr,Bordeaux,Auvergne-RA,Particulier,2022-07-26,330.53,False
+CLI0483,Client_483,client483@email.fr,Nantes,PACA,PME,2023-06-14,1709.98,False
+CLI0484,Client_484,client484@email.fr,Paris,Auvergne-RA,Particulier,2021-01-30,362.0,True
+CLI0485,Client_485,client485@email.fr,Lyon,Île-de-France,PME,2021-05-19,3454.61,True
+CLI0486,Client_486,client486@email.fr,Toulouse,Auvergne-RA,PME,2022-07-11,2753.86,False
+CLI0487,Client_487,client487@email.fr,Nice,Occitanie,Particulier,2021-01-22,5038.36,False
+CLI0488,Client_488,client488@email.fr,Toulouse,Nouvelle-Aquitaine,PME,2021-01-26,2858.97,True
+CLI0489,Client_489,client489@email.fr,Nantes,Occitanie,Particulier,2022-04-07,3439.28,True
+CLI0490,Client_490,client490@email.fr,Montpellier,Occitanie,Particulier,2020-03-17,2007.87,True
+CLI0491,Client_491,client491@email.fr,Montpellier,PACA,Particulier,2022-06-11,9275.98,True
+CLI0492,Client_492,,Marseille,Occitanie,PME,2022-03-13,7470.4,False
+CLI0493,Client_493,client493@email.fr,Toulouse,PACA,Particulier,2021-05-22,491.79,True
+CLI0494,Client_494,,Montpellier,Auvergne-RA,Particulier,2023-10-11,8415.43,False
+CLI0495,Client_495,client495@email.fr,Nice,PACA,Startup,2021-12-09,4332.77,True
+CLI0496,Client_496,client496@email.fr,Marseille,PACA,Particulier,2021-07-26,14294.54,True
+CLI0497,Client_497,client497@email.fr,Marseille,PACA,Startup,2021-11-25,29010.71,True
+CLI0498,Client_498,client498@email.fr,Lyon,Nouvelle-Aquitaine,Particulier,2020-06-18,22622.58,False
+CLI0499,Client_499,client499@email.fr,Lyon,PACA,Particulier,2022-06-06,56606.6,True
+CLI0500,Client_500,client500@email.fr,Nantes,Auvergne-RA,Particulier,2022-04-12,2997.53,False
+CLI0392,Client_392,,Nantes,Nouvelle-Aquitaine,Particulier,2022-03-07,3772.83,True
+CLI0014,Client_14,client14@email.fr,Marseille,Occitanie,Startup,2022-06-01,317.7,False
+CLI0341,Client_341,client341@email.fr,Strasbourg,Nouvelle-Aquitaine,Grand Compte,2023-04-22,7573.1,False
+CLI0367,Client_367,client367@email.fr,Montpellier,Nouvelle-Aquitaine,PME,2021-03-06,85965.54,True
+CLI0199,Client_199,client199@email.fr,Toulouse,Auvergne-RA,Particulier,2021-01-15,389.21,True
+CLI0041,Client_41,client41@email.fr,Lille,Île-de-France,Grand Compte,2020-10-03,1499.42,False
+CLI0437,Client_437,,Marseille,PACA,Particulier,2021-04-25,10771.68,True
+CLI0498,Client_498,client498@email.fr,Lyon,Nouvelle-Aquitaine,Particulier,2020-06-18,22622.58,False
+CLI0170,Client_170,client170@email.fr,Lyon,Île-de-France,Particulier,2023-05-26,52630.29,True
+CLI0092,Client_92,client92@email.fr,Strasbourg,PACA,Startup,2020-02-24,18240.29,True
+CLI0173,Client_173,client173@email.fr,Toulouse,Île-de-France,PME,2023-05-28,4982.27,True
+CLI0248,Client_248,client248@email.fr,Marseille,Auvergne-RA,PME,2022-04-01,456.98,False
+CLI0198,Client_198,client198@email.fr,Paris,Nouvelle-Aquitaine,Grand Compte,2021-05-31,1025.62,False
+CLI0033,Client_33,client33@email.fr,Nantes,PACA,Startup,2020-12-02,10689.65,True
+CLI0163,Client_163,client163@email.fr,Nantes,Nouvelle-Aquitaine,PME,2023-02-04,10621.32,True

@@ -1,0 +1,288 @@
+Partie 1 - Chargement
+Question 1
+
+Importer la bibliothèque Pandas.
+
+Question 2
+
+Charger le fichier ventes.json dans un DataFrame.
+
+Nommer le DataFrame ventes.
+
+Question 3
+
+Afficher le DataFrame.
+
+Que remarquez-vous ?
+
+Question 4
+
+Charger le fichier employes.parquet.
+
+Nommer le DataFrame employes.
+
+Question 5
+
+Afficher les premières lignes.
+
+Partie 2 - Découverte
+Question 6
+
+Combien le DataFrame ventes possède-t-il de lignes ?
+
+Question 7
+
+Combien possède-t-il de colonnes ?
+
+Question 8
+
+Afficher les noms des colonnes.
+
+Question 9
+
+Afficher les types des colonnes.
+
+Question 10
+
+Afficher les informations générales du DataFrame.
+
+Question 11
+
+Afficher les statistiques descriptives.
+
+Question 12
+
+Afficher les cinq premières lignes.
+
+Question 13
+
+Afficher les trois dernières lignes.
+
+Question 14
+
+Afficher une ligne choisie au hasard.
+
+Partie 3 - Les colonnes
+Question 15
+
+Afficher uniquement la colonne client.
+
+Question 16
+
+Afficher uniquement la colonne produit.
+
+Question 17
+
+Afficher les colonnes
+
+client
+produit
+quantité
+Question 18
+
+Afficher uniquement les colonnes numériques.
+
+Partie 4 - Les lignes
+Question 19
+
+Afficher la première ligne.
+
+Question 20
+
+Afficher la troisième ligne.
+
+Question 21
+
+Afficher les lignes 2 à 6.
+
+Question 22
+
+Afficher uniquement les deux dernières lignes.
+
+Partie 5 - Les sélections
+Question 23
+
+Afficher le client de la première commande.
+
+Question 24
+
+Afficher le produit de la cinquième commande.
+
+Question 25
+
+Afficher le prix unitaire de la troisième commande.
+
+Question 26
+
+Afficher toutes les informations concernant la commande numéro 1004.
+
+Partie 6 - Les filtres
+Question 27
+
+Afficher toutes les commandes livrées.
+
+Question 28
+
+Afficher toutes les commandes non livrées.
+
+Question 29
+
+Afficher toutes les commandes dont le prix dépasse 100 €.
+
+Question 30
+
+Afficher toutes les commandes contenant plus d'un article.
+
+Question 31
+
+Afficher toutes les commandes du client Alice.
+
+Question 32
+
+Afficher toutes les commandes concernant les écrans.
+
+Question 33
+
+Afficher toutes les commandes d'Alice concernant un écran.
+
+Question 34
+
+Afficher toutes les commandes dont le prix est compris entre 50 € et 500 €.
+
+Question 35
+
+Afficher toutes les commandes des clients Alice ou Bob.
+
+Partie 7 - Trier
+Question 36
+
+Trier les commandes par prix croissant.
+
+Question 37
+
+Trier les commandes par prix décroissant.
+
+Question 38
+
+Trier les commandes par date.
+
+Question 39
+
+Trier les commandes par client puis par date.
+
+Partie 8 - Statistiques
+Question 40
+
+Combien existe-t-il de clients différents ?
+
+Question 41
+
+Quel est le produit le plus vendu ?
+
+Question 42
+
+Quelle est la quantité moyenne commandée ?
+
+Question 43
+
+Quel est le prix moyen ?
+
+Question 44
+
+Quel est le prix maximum ?
+
+Question 45
+
+Quel est le prix minimum ?
+
+Question 46
+
+Combien de commandes ont été livrées ?
+
+Question 47
+
+Combien ne l'ont pas été ?
+
+Question 48
+
+Quel client apparaît le plus souvent ?
+
+Partie 9 - Employés
+Question 49
+
+Afficher uniquement les employés du service RH.
+
+Question 50
+
+Afficher les employés ayant plus de cinq ans d'ancienneté.
+
+Question 51
+
+Afficher les employés gagnant plus de 35 000 €.
+
+Question 52
+
+Quel est le salaire moyen ?
+
+Question 53
+
+Quel est le salarié le mieux payé ?
+
+Question 54
+
+Quel est le salarié ayant la plus grande ancienneté ?
+
+Question 55
+
+Combien y a-t-il de services différents ?
+
+Question 56
+
+Combien d'employés travaillent dans chaque service ?
+
+Partie 10 - Défis
+Défi 1
+
+Retrouver la commande la plus chère.
+
+Défi 2
+
+Retrouver le client ayant acheté le plus d'articles.
+
+Défi 3
+
+Retrouver tous les produits commandés plusieurs fois.
+
+Défi 4
+
+Quel est le chiffre d'affaires total ?
+
+(Indice : il faudra peut-être créer une nouvelle colonne.)
+
+Défi 5
+
+Créer une colonne montant.
+
+Défi 6
+
+Trier selon cette nouvelle colonne.
+
+Défi 7
+
+Quelle commande rapporte le plus ?
+
+Défi 8
+
+Quel client a généré le plus de chiffre d'affaires ?
+
+Défi 9 (bonus)
+
+Créer un classement des clients.
+
+Défi 10 (bonus)
+
+Construire un tableau récapitulatif présentant, pour chaque produit :
+
+le nombre de commandes,
+la quantité totale vendue,
+le chiffre d'affaires généré.
